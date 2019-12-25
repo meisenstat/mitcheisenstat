@@ -5,11 +5,12 @@ function Experience() {
     return (
         <div className="App">
             <header className="App-header">
-                <h1>Work Experience</h1>
+                <h1 className="App-header-text">Work Experience</h1>
             </header>
-            <body className="App-body">
+            <div className="App-body">
                 <div>
-                    <h2>Fluid HPC</h2>
+                    <h2 className="Act-company">Fluid HPC</h2>
+                    <h3 className="Act-title">Development Intern</h3>
                     <p className="Act-desc">
                         Fluid HPC is a platform allowing researchers to easily scale high performance computing workloads on the AWS
                         cloud. I worked as the lead for managing the operating system our customers work on. This included installing
@@ -20,7 +21,8 @@ function Experience() {
                     </p>
                 </div>
                 <div>
-                    <h2>TeselaGen Biotechnology</h2>
+                    <h2 className="Act-company">TeselaGen Biotechnology</h2>
+                    <h3 className="Act-title">Software Engineer Intern</h3>
                     <p className="Act-desc">
                         TeselaGen Biotechnology is accelerating the design and fabrication of DNA with synthetic biology software. At
                         TeselaGen, I worked as a Software Engineering Intern primarily working in JavaScript with the React Redux
@@ -30,7 +32,8 @@ function Experience() {
                     </p>
                 </div>
                 <div>
-                    <h2>TextRecruit</h2>
+                    <h2 className="Act-company">TextRecruit</h2>
+                    <h3 className="Act-title">AI Specialist Intern</h3>
                     <p className="Act-desc">
                         TextRecruit is a candidate engagement platform that leverages text, chat and AI to hire better people, faster. I 
                         worked as an AI Specialist Intern, leading a team of other entry level engineers and college students to build out 
@@ -40,7 +43,7 @@ function Experience() {
                         but towards the end of my time at TextRecruit I focused on managing my team and interacting with customers.
                     </p>
                 </div>
-            </body>
+            </div>
         </div>
     );
 }

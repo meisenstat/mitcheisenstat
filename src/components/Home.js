@@ -7,23 +7,23 @@ function Home() {
     return (
         <div className="App">
             <header className="App-header">
-                <h1>Mitch Eisenstat</h1>
+                <h1 className="App-header-text">Mitch Eisenstat</h1>
             </header>
-            <body className="intro">
+            <div className="intro">
                 <p>
-                    My name is Mitch Eisenstat. I am a senior at Wake Forest University studying Computer Science and Applied Mathemetics.
+                    My name is Mitch Eisenstat. I am a senior at Wake Forest University double majoring 
+                    in Computer Science and Applied Mathemetics.
                 </p>
                 <p>
                     I have worked at a handful of startups in various industries ranging from recruiting software
                     to biotech. I have done extensive work in high performance computing, both through work experience
                     and a competition team that I have been on the past two years.
                 </p>
-            </body>
-            <body className="App-body">
-                <h2>Work Experience</h2>
-                <h2>Clubs and Projects</h2>
-                <h2>Miscellaneous</h2>
-            </body>
+                <p>
+                    I am currently looking for entry level software engineer positions at tech companies. I am 
+                    primarily looking at positions located in New York City. 
+                </p>
+            </div>
             <footer className="App-footer">
                 <a href="https://www.linkedin.com/in/mitch-eisenstat/" target="_blank" rel="noopener noreferrer">
                     <img src={linkedin} className="Social-logo" alt="Linkedin" />
