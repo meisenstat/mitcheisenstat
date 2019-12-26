@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "aws s3 sync build/ s3://mitcheisenstat",
+    "deploy": "aws s3 sync build/ s3://mitcheisenstat.com",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

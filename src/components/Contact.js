@@ -76,7 +76,10 @@ class Contact extends React.Component {
         })
         .then(result => {
             this.setState({
-              mailSent: result.status
+                name: '',
+                email: '',
+                message: '',
+                mailSent: result.status
             })
           })
           .catch(error => {
