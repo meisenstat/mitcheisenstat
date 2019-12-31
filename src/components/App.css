@@ -1,24 +1,9 @@
 .App {
-  /*text-align: center;*/
-  /*min-height: 100%;*/
   background-image: url("../assets/images/axiom-pattern.png");
   height: 100vh;
-  /*background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;*/
-
   background-color: #001630;
-
   margin-top: 0px;
-
   overflow-y: auto;
-
-  /*background-position: center;
-  background-size: cover;*/
-}
-
-.App-logo {
-  height: 40vmin;
 }
 
 .App-header {
@@ -54,15 +39,10 @@
   margin-block-start: 0;
 }
 
-.App-link {
-  color: #09d3ac;
-}
-
 .Nav-bar {
   overflow: hidden;
   position: fixed;
   width: 100%;
-  /*background-color: rgba(0, 0, 0, 0.0);*/
   background-image: url("../assets/images/axiom-pattern.png");
   background-color: #001630;
   top: 0px;
@@ -73,7 +53,6 @@
   float: right;
   padding: 15px;
   color: #ffffff;
-  /*color: red;*/
   text-align: center;
   text-decoration: none;
 }
@@ -110,6 +89,16 @@
 .Social-logo {
   height: 5vmin;
   padding: 2vmin;
+}
+
+.prof-pic {
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid white;
 }
 
 .intro {
@@ -177,6 +166,7 @@ button[type=submit]:hover {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
+
   .resume {
     width: 100%;
     height: calc(100% * (2200/1700));

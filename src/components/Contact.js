@@ -24,7 +24,7 @@ class Contact extends React.Component {
                         To contact me, send me an email at <a href="mailto: mitcheisenstat20@gmail.com" style={{color:"red"}}>mitcheisenstat20@gmail.com</a>
                     </p>
                     <p>
-                        If you'd prefer me to reach out to you, fill out this form!
+                        If you'd prefer me to reach out to you, please fill out this form!
                     </p>
                     <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
                         <div className="form-input">
@@ -51,7 +51,7 @@ class Contact extends React.Component {
                         <button type="submit">Submit</button>
                         <div>
                             { this.state.mailSent &&
-                                <div className="emailSent">Thank you for contcting me. I will reach out shortly.</div>
+                                <div className="emailSent">Thank you for contacting me. I will reach out shortly.</div>
                             }
                             { this.state.error && 
                                 <div className="emailError">Contact submission error. Please email me personally.</div>

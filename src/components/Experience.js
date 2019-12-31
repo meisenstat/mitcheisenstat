@@ -26,8 +26,8 @@ function Experience() {
                     <p className="Act-desc">
                         TeselaGen Biotechnology is accelerating the design and fabrication of DNA with synthetic biology software. At
                         TeselaGen, I worked as a Software Engineering Intern primarily working in JavaScript with the React Redux
-                        framework. I also completely a few stories doing backend work with NodeJS. I worked alongside senior
-                        developers to resolve open tickets and fix bugs. My final role was to assist in the quality assurance process to
+                        framework. I also completed a few stories doing backend work with NodeJS. I worked alongside senior
+                        developers to resolve open tickets and fix bugs. I assisted in the quality assurance process to
                         ensure a stable release application.
                     </p>
                 </div>
@@ -36,11 +36,11 @@ function Experience() {
                     <h3 className="Act-title">AI Specialist Intern</h3>
                     <p className="Act-desc">
                         TextRecruit is a candidate engagement platform that leverages text, chat and AI to hire better people, faster. I 
-                        worked as an AI Specialist Intern, leading a team of other entry level engineers and college students to build out 
-                        the AI chatbot called that the TextRecruit platform used. Ari is an AI-powered chatbot that assists recruiters 
+                        worked as an AI Specialist Intern, leading a team of entry level engineers and college students to build out 
+                        the AI chatbot called Ari that the TextRecruit platform uses. Ari assists recruiters 
                         in announcing job openings, screening candidates, scheduling interviews, onboarding new employees and answering 
-                        frequently asked HR questions. A majority of my time was spent building out this AI chatbot 
-                        but towards the end of my time at TextRecruit I focused on managing my team and interacting with customers.
+                        frequently asked HR questions. A majority of my time was spent building out this chatbot 
+                        but as the team grew I acted as a team lead/manager, as well as interacting with customers.
                     </p>
                 </div>
             </div>
