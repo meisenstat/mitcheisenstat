@@ -25,12 +25,13 @@
 }
 
 .App-footer {
-  text-align: center;
   position: absolute;
-  background-color: #cacaca;
   bottom: 0px;
+  height: 86px;
+  width: 165px;
   left: 50%;
-  margin-left: -9vmin;
+  transform: translateX(-50%);
+  background-color: #cacaca;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -87,8 +88,8 @@
 }
 
 .Social-logo {
-  height: 5vmin;
-  padding: 2vmin;
+  height: 46px;
+  padding: 18px;
 }
 
 .prof-pic {

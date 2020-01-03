@@ -26,6 +26,7 @@ function Home() {
                     to various geographical locations.
                 </p>
             </div>
+            <div style={{width: "100%", height: "86px"}}></div>
             <footer className="App-footer">
                 <a href="https://www.linkedin.com/in/mitch-eisenstat/" target="_blank" rel="noopener noreferrer">
                     <img src={linkedin} className="Social-logo" alt="Linkedin" />
